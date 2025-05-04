@@ -1,0 +1,77 @@
+site_name: Fatima (Data Scientist and AI Engineer)
+site_description: A collection of my projects
+site_author: Fatima Hammad
+site_url: https://fatimahammad.github.io/portfolio
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Blogs: blogs.md
+  - Resume: resume.md
+  - Skills: skills.md
+  - About: about.md
+
+theme:
+  name: material
+  logo: images/logo.png              # Optional: logo path
+  # favicon: images/favicon-32x32.png   <-- Removed this line
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - navigation.expand
+    - toc.integrate
+    - navigation.sections
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: lime
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fatimahammad
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/fatimahammad
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fatimahammad
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.emoji
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - awesome-pages
+
