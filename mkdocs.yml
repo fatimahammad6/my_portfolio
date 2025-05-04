@@ -9,6 +9,8 @@ nav:
   - Blogs: blogs.md
   - Resume: resume.md
   - Skills: skills.md
+  - Services: services.md
+  - Contact: contact.md
   - About: about.md
 
 theme:

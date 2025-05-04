@@ -6,6 +6,7 @@
  
 **LinkedIn:** <https://www.linkedin.com/in/fatima-hammad-a76220361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>  
 **GitHub:** <https://github.com/fatimahammad6>
+**Twitter/X:** <https://twitter.com/FatimaHammad_6>  
 
 
 
