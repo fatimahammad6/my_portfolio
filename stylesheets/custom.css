@@ -1,0 +1,105 @@
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #FF5733;  /* Orange color */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* Links Styling */
+a {
+  color: #4CAF50 !important;  /* Green color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF5733 !important;  /* Orange color on hover */
+}
+
+/* FontAwesome Icons */
+.fa, .fab, .fas, .far {
+  color: #4caf50 !important;  /* Green color for icons */
+}
+
+.fa:hover, .fab:hover, .fas:hover, .far:hover {
+  color: #FF5733 !important;  /* Orange color on hover */
+}
+
+/* Card Style for Content */
+.md-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Button Styling */
+button {
+  background-color: #FF5733;  /* Orange color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;  /* Green color on hover */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #FF5733;
+}
+
+footer a:hover {
+  color: #4CAF50;
+}
+
+/* Card container for Projects and Blog */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Page Section Styling */
+section {
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+/* Navigation Bar Customization */
+nav {
+  background-color: #4CAF50;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  background-color: #FF5733;
+}
+
